@@ -1,0 +1,41 @@
+
+.navbar-default {
+  background-color:black ;
+  border-color:blue;
+  color:red
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:red;
+}
+
+.jumbotron {
+  text-align: center
+}
+
+.jumbotron h3{
+  font-size: 14px
+}
+
+.jumbotron p{
+  font-size:14px
+}
+
+.jumbotron h2{
+  font-size:18px;
+}
+
+.btn{
+  color:red;
+}
+.navbar-default .navbar-brand {
+  color:red;
+}
+
+.btn-default{
+  background-color:black;
+}
+
+p{
+  font-size:10px;
+}

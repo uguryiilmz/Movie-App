@@ -1,0 +1,16 @@
+<% include partials/header.ejs %>
+<h1>Show Details </h1> 
+<div class="jumbotron">
+  <div class="container">
+    <h2 style:"padding-bottom:25px"><%=movieData.title %></h2>
+    <img src="<%=movieData.image %>">
+    <p><%=movieData.created %></p>
+    <p><%-movieData.summary %></p>
+    <p><a class="btn btn-default " href="/movies/<%=movieData._id %>/edit" role="button">Edit Movie</a></p>
+    <form action="/movies/<%=movieData._id%>?_method=DELETE" method="POST">
+        <button class="btn btn-default"> DELETE </button>
+    </form>
+  </div>
+</div>
+
+<% include partials/footer %>
